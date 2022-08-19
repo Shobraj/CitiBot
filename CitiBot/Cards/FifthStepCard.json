@@ -1,0 +1,52 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Review Appointment",
+      "wrap": true
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Provider Name",
+          "value": "__Provider_Name__"
+        },
+        {
+          "title": "Facility Address",
+          "value": "__Facility_Address__"
+        },
+        {
+          "title": "Date and Time",
+          "value": "__Date_and_Time__"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Book an Appointment",
+      "data": {
+        "value": "Book_Appointment"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Book for another Date and Slot",
+      "data": {
+        "value": "another_Date_and_Slot"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Book for another Provider and Location",
+      "data": {
+        "value": "another_Provider_and_Location"
+      }
+    }
+  ]
+}

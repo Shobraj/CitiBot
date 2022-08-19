@@ -1,0 +1,17 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+  ],
+  "actions": [
+    __dynamic_data__
+    {
+      "type": "Action.Submit",
+      "title": "Go to Previous Menu",
+      "data": {
+        "value": "Go_to_Previous_Menu"
+      }
+    }
+  ]
+}

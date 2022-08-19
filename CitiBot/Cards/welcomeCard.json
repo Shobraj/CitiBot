@@ -1,0 +1,31 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "Hi __PatientNme__, I am Citi Bot! How can i help you today.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "My Appointment",
+      "data": {
+        "value": "View_Appointment"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Book an Appointment",
+      "data": {
+        "value": "Book_Appointment"
+      }
+    }
+  ]
+}

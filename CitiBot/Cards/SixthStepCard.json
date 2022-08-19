@@ -1,0 +1,28 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "That's it. Appointment is book with __Dr_Name__ on __Date__ on __Time__. For more details please check the upoming Appointment tab in Appointment menu.",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Book Another Appointment",
+      "data": {
+        "value": "Book_Another_Appointment"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Go Back to Main Menu",
+      "data": {
+        "value": "Main_Menu"
+      }
+    }
+  ]
+}

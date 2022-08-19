@@ -1,0 +1,35 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Do you want me to book appointment for previously seen provider or doctor?",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Yes",
+      "data": {
+        "value": "yes"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "No",
+      "data": {
+        "value": "no"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Go to Previous Menu",
+      "data": {
+        "value": "Go_to_Previous_Menu"
+      }
+    }
+  ]
+}
